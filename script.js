@@ -12,3 +12,11 @@ window.addEventListener('scroll', () => {
 
     lastScroll = currentScroll;
 });
+
+const toTopBtn = document.getElementById("toTop");
+
+if (toTopBtn) {
+    toTopBtn.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
