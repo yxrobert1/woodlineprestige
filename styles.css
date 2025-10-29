@@ -16,12 +16,20 @@ body {
 
 .header {
     position: fixed;
+    left: 0;
+    top: 0;
     width: 100%;
     z-index: 1000;
     background-color: rgba(46, 42, 39, 1);
     height: 50px;
-    padding: 15px 20px 15px 20px;
+    padding: 15px 20px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    transition: top 0.5s ease;
+}
+
+/* ✅ Clasă de ascuns */
+.header.hidden {
+    top: -100px;
 }
 
 .navbar {
