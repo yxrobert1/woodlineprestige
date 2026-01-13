@@ -1,22 +1,39 @@
-let lastScroll = 0;
-const header = document.getElementById('header');
+document.addEventListener("DOMContentLoaded", () => {
+  const toTopBtn = document.getElementById("toTop");
+  const textarea = document.getElementById("message");
+  const counter = document.getElementById("charCount");
 
-window.addEventListener('scroll', () => {
-    const currentScroll = window.pageYOffset;
+  const sidebar = document.getElementById('menu-side-bar');
+const menuToggles = document.querySelectorAll('.menu-toggle');
 
-    if (currentScroll > lastScroll) {
-        header.classList.add('hidden');
-    } else {
-        header.classList.remove('hidden');
-    }
-
-    lastScroll = currentScroll;
+menuToggles.forEach(btn => {
+  btn.addEventListener('click', (event) => {
+    event.stopPropagation();
+    sidebar.classList.toggle('show');
+  });
 });
 
-const toTopBtn = document.getElementById("toTop");
 
-if (toTopBtn) {
+sidebar.addEventListener('click', (event) => {
+  event.stopPropagation();
+});
+
+window.addEventListener('click', () => {
+  sidebar.classList.remove('show');
+});
+
+
+  if (toTopBtn) {
     toTopBtn.addEventListener("click", () => {
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
   }
+
+  if (textarea && counter) {
+    const max = textarea.getAttribute("maxlength");
+    textarea.addEventListener("input", () => {
+      const length = textarea.value.length;
+      counter.textContent = `${length} / ${max} caractere`;
+    });
+  }
+});
