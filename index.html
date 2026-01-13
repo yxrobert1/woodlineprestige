@@ -3,227 +3,689 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Bistro Luna - Luxury Restaurant</title>
+    <title>Woodline Prestige</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
-    <div class="site-blocked">
-        <div class="site-blocked-box">
-            <h2>Site-ul nu a fost încărcat</h2>
-            <p>Accesați de pe telefon sau desktop.</p>
-        </div>
-    </div>
-    <header class="header" id="navbar">
+    
+    <header class="header" id="header">
         <nav class="navbar">
             <div class="logo">
-                <a href="index.html">
-                <img src="images/logo.png" alt="Bistro Luna Logo">
-                <span>Bistro Luna</span>
+                <a href="#hero">
+                    <img src="images/logo.png" alt="Logo Woodline Design">
+                    <span>Woodline Prestige</span>
                 </a>
             </div>
-            <ul class="nav-links">
-                <li><a href="#about-us">Despre noi</a></li>
-                <li><a href="meniu.html">Meniu</a></li>
-                <li><a href="galerie.html">Galerie</a></li>
-                <li><a href="rezervari.html">Rezervări</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <div class="languages">
-                <a href="" class="ro-ro" onclick="event.preventDefault()">RO</a>
-                <a href="desprenoi-en.html" class="ro-en">EN</a>
-            </div>
-            <button class="menu-toggle" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
-        </nav>
-        <div class="menu-side-bar" id="menu-side-bar">
-            <button class="menu-toggle" aria-label="Toggle menu"><i class="fa-solid fa-xmark"></i></button>
-            <ul class="menu-nav-links">
-                <li><a href="#about-us">Despre noi</a></li>
-                <li><a href="meniu.html">Meniu</a></li>
-                <li><a href="galerie.html">Galerie</a></li>
-                <li><a href="rezervari.html">Rezervări</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <div class="languages">
-                <a href="" class="ro-ro" onclick="event.preventDefault()">RO</a>
-                <a href="desprenoi-en.html" class="ro-en">EN</a>
-            </div>
-            <div class="contact-us-side-bar">
+            <div class="navbar-links">
                 <ul>
-                    <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
                 </ul>
             </div>
-            <ul class="infos">
-                <li><i class="fa fa-phone"></i> <span>+40 749 853 688</span></li>
-                <li><i class="fa-solid fa-envelope"></i> <span>bistro-luna@gmail.com</span></li>
-            </ul>
-        </div>
+            <div class="contact-button">
+                <a href="#contact"><button>Contact</button></a>
+            </div>
+        </nav>
     </header>
 
     <section class="hero" id="hero">
         <div class="hero-content">
-            <div class="hero-boxes">
-                <div class="menu-box">
-                    <p class="title">Bistro Luna Restaurant</h1>
-                    <p class="subtitle">Restaurant cu specific internațional în Brașov</p>
-                    <a href="meniu.html"><button class="menu-button">VEZI MENIUL</button></a>
-                </div>
-                <div class="rezervare-box">
-                    <p class="title">Rezervări</p>
-                    <p class="subtitle">Fă o rezervare rapid apăsând pe butonul de mai jos</p> 
-                    <a href="rezervari.html"><button class="rezervare-button">REZERVARE</button></a>
+            <div class="hero-box">
+                <h2>Wood Furniture Assembly and Installation Experts</h2>
+                <p>Premium furniture and custom interiors delivered with precision, quality, and timeless style</p>
+                <div class="hero-buttons">
+                    <a href="#contact"><button class="hero-contact">Contact Us</button></a>
+                    <a href="#products"><button class="hero-products">Our Products</button></a>
                 </div>
             </div>
         </div>
     </section>
-    
-    <p style="width: 100%; height: 10px; background-color: rgba(165, 113, 70, 1);"></p>
 
-    <section class="about-us" id="about-us">
-        <div class="about-us-box">
-            <div class="text-box">
-                <h2>Bine ați venit!</h2> 
-                <p class="subtitle">POVESTEA NOASTRĂ</p>
-                <div class="line">
-                    <p><i class="fa-solid fa-star-of-life"></i></p>
-                </div>
-                <div class="paragraph-boxes">
-                    <p>Povestea noastră a început în 2019, din dorința sinceră de a crea un loc unde gusturile lumii să se întâlnească într-o singură experiență.   Călătoriile, curiozitatea și dragostea pentru gastronomie ne-au inspirat să aducem la aceeași masă culturi, arome și povești diferite — unite prin pasiunea pentru mâncarea bine făcută</p>
-                    <p>În bucătăria noastră, fiecare ingredient spune o poveste. Alegem cu grijă tot ce ajunge în farfurie — de la produse locale, până la condimente aduse din cele mai îndepărtate colțuri ale lumii. Combinăm tradițiile culinare autentice cu tehnici moderne, pentru a crea un echilibru perfect între gust, emoție și rafinament.</p>
-                    <p>Ne dorim ca fiecare vizită să fie o călătorie culinară — o experiență care te poartă de la aromele vibrante ale Asiei, la finețea bucătăriilor europene și savoarea intensă a rețetelor sud-americane.</p>
-                    <p>Echipa noastră este formată din oameni pasionați, dedicați să transforme fiecare moment petrecut la noi într-o amintire plină de gust.</p>
-                    <div class="our-team">
-                        <a href="#"><button>ECHIPA NOASTRĂ</button></a>
-                    </div>
-                    <p>Fie că vii pentru o cină romantică, o întâlnire cu prietenii sau o ocazie specială, te invităm să descoperi esența bucătăriei internaționale, reinterpretată cu suflet și creativitate — o poveste care continuă să se scrie, zi de zi, din 2019 încoace.</p>
-                    <div class="menu-rezervare">
-                        <p>Vezi meniul nostru și rezervă rapid o masă pentru diseară.</p>
-                        <div class="menu-rezervare-buttons">
-                            <a href="meniu.html"><button class="menu-button">VEZI MENIUL</button></a>
-                            <a href="rezervari.html"><button class="rezervare-button">REZERVARE</button></a>
-                        </div>  
-                    </div>
-                    <p class="last-p">Din 2019, aducem lumea în farfurie, cu suflet și gust autentic</p>
-                </div>
+    <p class="separation-bar"></p>
+
+    <section class="services" id="services">
+        <div class="services-content">
+            <div class="text-box-services">
+                <h2>Our Services</h2>
+                <p>We offer expert furniture assembly and care services for all kinds of wooden pieces, along with a variety of home enhancement solutions.</p>
             </div>
-            <div class="photo-box-1">
-                <img src="images/poza-restaurant-3.png" alt="Photo 1">
-            </div>
-        </div>  
-    </section>
-    
-    <section class="values">
-        <div class="values-box">
-        <div class="photo-box-2">
-            <img src="images/poza-restaurant-2.png" alt="Photo 2">
-        </div>
-        <div class="text-box">
-            <h2>Valorile care ne definesc</h2> 
-            <p class="subtitle">PASIUNE ȘI AUTENTICITATE ÎN FIECARE PREPARAT</p>                
-            <div class="line">
-                <p><i class="fa-solid fa-star-of-life"></i></p>
-            </div>
-            <div class="paragraph-boxes">
-                <p>La baza fiecărui preparat stă respectul pentru ingredient, pentru tradiție și pentru oamenii care ne calcă pragul.</p>                    
-                <p>Credem că adevărata savoare se naște din echilibru — între inovație și autenticitate</p>
-                <div class="values-content">
-                    <div class="list-boxes">
-                    <div class="list-box">
-                        <h3 class="small-title">Principiile noastre</h3>
-                        <ul class="values-list">
-                            <li><i class="fa-solid fa-seedling"></i> Calitate în fiecare detaliu</li>
-                            <li><i class="fa-solid fa-globe"></i> Diversitate culinară</li>
-                            <li><i class="fa-solid fa-handshake"></i> Ospitalitate autentică</li>
-                            <li><i class="fa-solid fa-heart"></i> Pasiune pentru gust</li>
-                            <li><i class="fa-solid fa-shield-alt"></i> Integritate și transparență</li>
-                        </ul>
+            <div class="services-boxes-content">
+                <div class="service-type-box">
+                    <h2>Home Furniture</h2>
+                    <div class="line">
+                        <p><i class="fa-solid fa-star-of-life"></i></p>
                     </div>
-                    <div class="list-box">
-                        <h3 class="small-title">Ingrediente cheie</h3>
-                        <ul class="values-list">
-                            <li><i class="fa-solid fa-carrot"></i> Legume proaspete, de sezon</li>
-                            <li><i class="fa-solid fa-fish"></i> Pește și fructe de mare de calitate</li>
-                            <li><i class="fa-solid fa-drumstick-bite"></i> Carne atent selecționată</li>
-                            <li><i class="fa-solid fa-leaf"></i> Ierburi și condimente naturale</li>
-                            <li><i class="fa-solid fa-cheese"></i> Lactate locale și maturate corespunzător</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="vertical-line"></div>
-                <div class="reviews-content">
-                    <h3 class="reviews-content-title">Parerile clientilor</h3>
-                    <div class="reviews-boxes">
-                        <div class="review">
-                            <p class="quote">Un loc minunat! Mâncarea e fantastică și personalul te face să te simți ca acasă.</p>
-                            <div class="stars">
-                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star-half-stroke"></i>
-                            </div>
-                            <p class="author">Andreea M.</p>
+                    <div class="services-box">
+                        <div class="box">
+                            <p class="title"><i class="fas fa-drafting-compass"></i><span>Custom Furniture</span></p>
+                            <p class="text">Tailored furniture solutions designed and built to fit your space perfectly.</p>
+                            <a href="">Contact us <i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="review">
-                            <p class="quote">Atmosferă plăcută, preparate rafinate. Recomand cu drag!</p>
-                            <div class="stars">
-                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
-                            </div>
-                            <p class="author">Mihai R.</p>
+                        <div class="box">
+                            <p class="title"><i class="fas fa-box-open"></i><span>Ready-Made Furniture</span></p>
+                            <p class="text">Wide range of pre-designed furniture pieces ready for delivery and setup.</p>
+                            <a href="">Contact us <i class="fas fa-arrow-right"></i></a>
                         </div>
-                        <div class="review">
-                            <p class="quote">O experiență culinară de neuitat, ingrediente de calitate și servicii excelente.</p>
-                            <div class="stars">
-                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                            </div>
-                            <p class="author">Laura P.</p>
+                        <div class="box">
+                            <p class="title"><i class="fas fa-couch"></i><span>Home Accessories</span></p>
+                            <p class="text">Shelving, décor items and lighting to complete and personalize any room.</p>
+                            <a href="">Contact us <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-type-box">
+                    <h2>Assembly Services</h2>
+                    <div class="line">
+                        <p><i class="fa-solid fa-star-of-life"></i></p>
+                    </div>
+                    <div class="services-box">
+                        <div class="box">
+                            <p class="title"><i class="fas fa-tools"></i><span>Furniture Assembly</span></p>
+                            <p class="text">Professional assembly for any type of furniture, from flat-pack to premium brands.</p>
+                            <a href="">Contact us <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        <div class="box">
+                            <p class="title"><i class="fas fa-chair"></i><span>Office Assembly</span></p>
+                            <p class="text">Desks, storage units, ergonomic chairs and full workplace setups.</p>
+                            <a href="">Contact us <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        <div class="box">
+                            <p class="title"><i class="fas fa-cubes"></i><span>Outdoor & Modular Assembly</span></p>
+                            <p class="text">Garden furniture and modular systems securely assembled for everyday use.</p>
+                            <a href="">Contact us <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-type-box">
+                    <h2>Installation Services</h2>
+                    <div class="line">
+                        <p><i class="fa-solid fa-star-of-life"></i></p>
+                    </div>
+                    <div class="services-box">
+                        <div class="box">
+                            <p class="title"><i class="fas fa-plug"></i><span>Built-In Appliance Installation</span></p>
+                            <p class="text">Hobs, ovens, hoods and other integrated units installed safely and correctly.</p>
+                            <a href="">Contact us <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        <div class="box">
+                            <p class="title"><i class="fas fa-tv"></i><span>Wall-Mounted Installations</span></p>
+                            <p class="text">Shelves, TV units and décor elements firmly mounted in place.</p>
+                            <a href="">Contact us <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        <div class="box">
+                            <p class="title"><i class="fas fa-shower"></i><span>Bathroom & Kitchen Fixtures</span></p>
+                            <p class="text">Sinks, taps, accessories installed with precision and care.</p>
+                            <a href="">Contact us <i class="fas fa-arrow-right"></i></a>    
                         </div>
                     </div>
                 </div>
             </div>
-            <p class="last-p">Vă așteptăm să descoperiți gustul adevărat al fiecărui preparat</p>
         </div>
     </section>
+
+    <p class="separation-bar"></p>
+
+    <section class="process" id="process">
+        <div class="process-content">
+            <div class="text-box-process">
+                <h2>How It Works</h2>
+                <p>At <span class="company-name">Woodline Prestige</span>, we make furniture shopping and assembly simple and stress-free. From choosing your pieces to professional installation, we handle everything so you can enjoy your home effortlessly.</p>
+            </div>
+            <div class="process-boxes">
+                <div class="step-box">
+                    <span class="step">1</span>
+                    <span class="title">Choose Your Furniture</span>
+                    <span class="text">Select the pieces you love from our range or provide your own furniture.</span>
+                </div>
+                <div class="step-box">
+                    <span class="step">2</span>
+                    <span class="title">Schedule Your Assembly</span>
+                    <span class="text">Pick a convenient date and time — we’re flexible and work around your schedule.</span>
+                </div>
+                <div class="step-box">
+                    <span class="step">3</span>
+                    <span class="title">Delivery to Your Door</span>
+                    <span class="text">We bring everything safely to your home, ready for installation.</span>
+                </div>
+                <div class="step-box">
+                    <span class="step">4</span>
+                    <span class="title">Professional Assembly</span>
+                    <span class="text">Our skilled team assembles your furniture quickly, correctly, and with care.</span>
+                </div>
+                <div class="step-box">
+                    <span class="step">5</span>
+                    <span class="title">Final Check & Clean Up</span>
+                    <span class="text">We ensure everything is secure and clean the area before we leave. Your furniture is ready to enjoy!</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <p class="separation-bar"></p>
+
+        <div class="products-content" id="products">
+            <div class="text-box-products">
+                <h2>Our Furniture Collection</h2>
+                <p>Discover a curated selection of quality furniture designed for comfort, style, and everyday living.</p>
+            </div>
+            <nav class="products-nav">
+                <a href="#living-room">Living Room</a>
+                <a href="#bedroom">Bedroom</a>
+                <a href="#kitchen">Kitchen</a>
+                <a href="#office">Office</a>
+            </nav>
+                <div class="products-content">
+                    <section class="products" id="living-room">
+                        <div class="product-category-box">
+                            <div class="products-side">
+                                <div class="products-side-text">
+                                    <h2>Living Room</h2>
+                                    <p>A stylish retreat for relaxing and entertaining in comfort and elegance.</p>
+                                </div>
+                                <div class="products-line">
+                                    <p><i class="fa-solid fa-star-of-life"></i></p>
+                                </div>
+                                <div class="products-boxes">
+                                    <div class="p-box">
+                                        <span class="p-title">Modern Sofa</span>
+                                        <span class="p-photo"><img src="images/modern-sofa.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">Essential for daily comfort and entertaining guests</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$1,200</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                    <div class="p-box">
+                                        <span class="p-title">Sleek TV Stand</span>
+                                        <span class="p-photo"><img src="images/sleek-tv-stand.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">Elegant storage unit for media devices.</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$329</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                    <div class="p-box">
+                                        <span class="p-title">Floor Lamp</span>
+                                        <span class="p-photo"><img src="images/floor-lamp.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">Tall lamp providing warm ambient lighting.</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$149</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                    <div class="products-line">
+                                        <p><i class="fa-solid fa-star-of-life"></i></p>
+                                    </div>
+                                    <div class="p-box">
+                                        <span class="p-title">Coffee Table</span>
+                                        <span class="p-photo"><img src="images/console-table.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">Stylish wooden table with glass top finish.</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$249</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                    <div class="p-box">
+                                        <span class="p-title">Console Table</span>
+                                        <span class="p-photo"><img src="images/coffe-table.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">Slim design for entryways or behind sofas.</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$150</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                    <div class="p-box">
+                                        <span class="p-title">Bookshelf</span>
+                                        <span class="p-photo"><img src="images/bookshelf.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">Spacious wooden shelf for books and decor.</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$199</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="photo-side">
+                                <img src="images/poza-verticala.png" alt="Poza">
+                            </div>
+                        </div>
+                    </section>
+                    <section class="products" id="bedroom">
+                        <div class="product-category-box">
+                            <div class="photo-side">
+                                <img src="images/poza-verticala-2.png" alt="Poza">
+                            </div>
+                            <div class="products-side">
+                                <div class="products-side-text" style="margin-top: 60px;">
+                                    <h2>Bedroom</h2>
+                                    <p>A serene sanctuary blending luxury and tranquility for restful nights.</p>
+                                </div>
+                                <div class="products-line">
+                                    <p><i class="fa-solid fa-star-of-life"></i></p>
+                                </div>
+                                <div class="products-boxes">
+                                    <div class="p-box">
+                                        <span class="p-title">Modern Sofa</span>
+                                        <span class="p-photo"><img src="images/modern-sofa.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">Essential for daily comfort and entertaining guests</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$1,200</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                    <div class="p-box">
+                                        <span class="p-title">Modern Sofa</span>
+                                        <span class="p-photo"><img src="images/modern-sofa.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">essential for daily comfort and entertaining guests</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$1,200</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                    <div class="p-box">
+                                        <span class="p-title">Modern Sofa</span>
+                                        <span class="p-photo"><img src="images/modern-sofa.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">essential for daily comfort and entertaining guests</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$1,200</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                    <div class="products-line">
+                                        <p><i class="fa-solid fa-star-of-life"></i></p>
+                                    </div>
+                                    <div class="p-box">
+                                        <span class="p-title">Modern Sofa</span>
+                                        <span class="p-photo"><img src="images/modern-sofa.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">essential for daily comfort and entertaining guests</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$1,200</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                    <div class="p-box">
+                                        <span class="p-title">Modern Sofa</span>
+                                        <span class="p-photo"><img src="images/modern-sofa.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">essential for daily comfort and entertaining guests</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$1,200</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                    <div class="p-box">
+                                        <span class="p-title">Modern Sofa</span>
+                                        <span class="p-photo"><img src="images/modern-sofa.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">essential for daily comfort and entertaining guests</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$1,200</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="products" id="kitchen">
+                        <div class="product-category-box">
+                            <div class="products-side">
+                                <div class="products-side-text" style="margin-top: 60px;">
+                                    <h2>Kitchen</h2>
+                                    <p>The heart of the home, designed for effortless cooking and elegant gatherings.</p>
+                                </div>
+                                <div class="products-line">
+                                    <p><i class="fa-solid fa-star-of-life"></i></p>
+                                </div>
+                                <div class="products-boxes">
+                                    <div class="p-box">
+                                        <span class="p-title">Modern Sofa</span>
+                                        <span class="p-photo"><img src="images/modern-sofa.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">Essential for daily comfort and entertaining guests</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$1,200</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                    <div class="p-box">
+                                        <span class="p-title">Modern Sofa</span>
+                                        <span class="p-photo"><img src="images/modern-sofa.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">essential for daily comfort and entertaining guests</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$1,200</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                    <div class="p-box">
+                                        <span class="p-title">Modern Sofa</span>
+                                        <span class="p-photo"><img src="images/modern-sofa.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">essential for daily comfort and entertaining guests</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$1,200</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                    <div class="products-line">
+                                        <p><i class="fa-solid fa-star-of-life"></i></p>
+                                    </div>
+                                    <div class="p-box">
+                                        <span class="p-title">Modern Sofa</span>
+                                        <span class="p-photo"><img src="images/modern-sofa.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">essential for daily comfort and entertaining guests</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$1,200</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                    <div class="p-box">
+                                        <span class="p-title">Modern Sofa</span>
+                                        <span class="p-photo"><img src="images/modern-sofa.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">essential for daily comfort and entertaining guests</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$1,200</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                    <div class="p-box">
+                                        <span class="p-title">Modern Sofa</span>
+                                        <span class="p-photo"><img src="images/modern-sofa.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">essential for daily comfort and entertaining guests</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$1,200</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="photo-side">
+                                <img src="images/poza-verticala.png" alt="Poza">
+                            </div>
+                        </div>
+                    </section>
+                    <section class="products" id="office">
+                        <div class="product-category-box">
+                            <div class="photo-side">
+                                <img src="images/poza-verticala-2.png" alt="Poza">
+                            </div>
+                            <div class="products-side">
+                                <div class="products-side-text" style="margin-top: 60px;">
+                                    <h2>Office</h2>
+                                    <p>A refined workspace that inspires focus, creativity, and productivity.</p>
+                                </div>
+                                <div class="products-line">
+                                    <p><i class="fa-solid fa-star-of-life"></i></p>
+                                </div>
+                                <div class="products-boxes">
+                                    <div class="p-box">
+                                        <span class="p-title">Modern Sofa</span>
+                                        <span class="p-photo"><img src="images/modern-sofa.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">Essential for daily comfort and entertaining guests</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$1,200</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                    <div class="p-box">
+                                        <span class="p-title">Modern Sofa</span>
+                                        <span class="p-photo"><img src="images/modern-sofa.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">essential for daily comfort and entertaining guests</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$1,200</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                    <div class="p-box">
+                                        <span class="p-title">Modern Sofa</span>
+                                        <span class="p-photo"><img src="images/modern-sofa.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">essential for daily comfort and entertaining guests</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$1,200</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                    <div class="products-line">
+                                        <p><i class="fa-solid fa-star-of-life"></i></p>
+                                    </div>
+                                    <div class="p-box">
+                                        <span class="p-title">Modern Sofa</span>
+                                        <span class="p-photo"><img src="images/modern-sofa.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">essential for daily comfort and entertaining guests</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$1,200</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                    <div class="p-box">
+                                        <span class="p-title">Modern Sofa</span>
+                                        <span class="p-photo"><img src="images/modern-sofa.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">essential for daily comfort and entertaining guests</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$1,200</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                    <div class="p-box">
+                                        <span class="p-title">Modern Sofa</span>
+                                        <span class="p-photo"><img src="images/modern-sofa.png" alt="Modern Sofa"> </span>
+                                        <span class="p-description">essential for daily comfort and entertaining guests</span>
+                                        <span class="p-price"><span class="p-price-text">Price:</span> <span class="p-price-value">$1,200</span></span>
+                                        <button>Order Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </div>
+
+    <p class="separation-bar"></p>
+
+    <section class="reviews" id="reviews">
+        <div class="reviews-content">
+            <div class="text-box-reviews">
+                <h2>Customer Reviews</h2>
+                <p>See what our customers have to say and how our furniture has transformed their spaces.</p>
+            </div>
+            <div class="reviews-boxes">
+                <div class="r-box">
+                    <span class="r-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>
+                    <span class="r-review">Absolutely love my new sofa! It’s comfortable and looks stunning in my living room.</span>
+                    <span class="r-author">
+                        <span class="author-name">Emily R.</span>
+                        <span class="author-city">Los Angeles</span>
+                    </span>
+                </div>
+
+                <div class="r-box">
+                    <span class="r-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </span>
+                    <span class="r-review">Great quality furniture, fast delivery. My dining table exceeded expectations.</span>
+                    <span class="r-author">
+                        <span class="author-name">James T.</span>
+                        <span class="author-city">Chicago</span>
+                    </span>
+                </div>
+
+                <div class="r-box">
+                    <span class="r-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                    <span class="r-review">The wardrobe was easy to assemble and fits perfectly in my bedroom. Very happy with the quality!</span>
+                    <span class="r-author">
+                        <span class="author-name">Sophia L.</span>
+                        <span class="author-city">New York</span>
+                    </span>
+                </div>
+
+                <div class="r-box">
+                    <span class="r-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>
+                    <span class="r-review">Stylish chairs and the installation was a breeze. Perfect addition to my home office.</span>
+                    <span class="r-author">
+                        <span class="author-name">Michael B.</span>
+                        <span class="author-city">Boston</span>
+                    </span>
+                </div>
+
+                <div class="r-box">
+                    <span class="r-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </span>
+                    <span class="r-review">Beautiful craftsmanship! The installation team was quick and professional—highly recommend.</span>
+                    <span class="r-author">
+                        <span class="author-name">Olivia K.</span>
+                        <span class="author-city">San Francisco</span>
+                    </span>
+                </div>
+
+                <div class="r-box">
+                    <span class="r-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>
+                    <span class="r-review">The bed frame is solid and straightforward to assemble. Very satisfied with the quality.</span>
+                    <span class="r-author">
+                        <span class="author-name">Daniel S.</span>
+                        <span class="author-city">Miami</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+    <p class="separation-bar"></p>
+
+    <section class="contact" id="contact">
+        <div class="contact-content">
+            <div class="text-box-contact">
+                <h2>Let’s work together</h2>
+                <p>Looking for custom furniture or interior solutions? Send us a message and we’ll get in touch to discuss your project.</p>
+            </div>
+            <div class="contact-boxes">
+                <div class="contact-formular">
+                    <form>
+                        <div class="form-row-1">
+                            <div class="form-box">
+                                <label for="firstname">First Name</label>
+                                <input type="text" id="firstname" name="firstname" autocomplete="off" required placeholder="Robert">
+                            </div>
+                            <div class="form-box">
+                                <label for="lastname">Last Name</label>
+                                <input type="text" id="lastname" name="lastname" autocomplete="off" required placeholder="Taylor">
+                            </div>
+                        </div>
+                        <div class="form-row-2">
+                            <div class="form-box">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" autocomplete="off" required placeholder="exemple@gmail.com">
+                            </div>
+                            <div class="form-box">
+                                <label for="phonenumber">Phone Number</label>
+                                <input type="tel" id="phonenumber" name="phonenumber" maxlength="10" autocomplete="off" required placeholder="0740 123 456" pattern="[0-9]{10}"   oninput="this.value = this.value.replace(/[^0-9]/g, '');">
+                            </div>
+                        </div>
+                        <div class="form-row-3">
+                            <label for="service">Service Required</label>
+                            <select name="subject" id="subject" required>
+                                <option value="">Custom Furniture</option>
+                                <option value="option1">Ready-Made Furniture</option>
+                                <option value="option2">Furniture Assembly</option>
+                                <option value="option3">Outdoor & Modular Assembly</option>
+                                <option value="option4">Built-In Appliance Installation</option>
+                                <option value="option5">Bathroom & Kitchen Fixtures</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-row-4">
+                            <label for="projectdetails">Provide details</label>
+                            <textarea id="projectdetails" name="projectdetails" autocomplete="off" placeholder="Enter your details here..."></textarea>
+                        </div>
+                        <div class="form-row-5">
+                            <input type="checkbox" name="policy" id="policy" required>
+                            <label for="policy">I agree to the privacy policy</label> 
+                        </div>
+                        <div class="form-row-6">
+                            <button type="submit" class="submit">Send Message</button>
+                            <button type="reset" class="reset">Reset</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-information">
+                    <p class="inf-title">Contact Information</p>
+                    <div class="information-boxes">
+                        <div class="information-box">
+                            <p class="box-title"><i class="fa fa-phone"></i><span>Phone</span></p>
+                            <p class="box-text">+40 749 853 688 - Robert</p>
+                            <p class="box-text">+40 731 831 139 - Gheorghe</p>
+                        </div>
+                        <div class="information-box">
+                            <p class="box-title"><i class="fa fa-envelope"></i><span>Email</span></p>
+                            <p class="box-text">woodline-p@gmail.com</p>
+                        </div>
+                        <div class="information-box">
+                            <p class="box-title"><i class="fa fa-location-dot"></i><span>Location</span></p>
+                            <p class="box-text">Delivering services throughout Europe</p>
+                        </div>
+                        <div class="information-box">
+                            <p class="box-title"><i class="fa fa-clock"></i><span>Working Hours</span></p>
+                            <p class="box-text"><span>Monday - Friday: 8<sup>00</sup> - 17<sup>00</sup></span></p>
+                            <p class="box-text"><span>Saturday: 10<sup>00</sup> - 15<sup>00</sup></span></p>
+                            <p class="box-text"><span>Sunday: 11<sup>00</sup> - 14<sup>00</sup> <span style="font-style: italic; margin-left: 5px;">(only with a 20% extra fee)</span></p>
+                        </div>
+                    </div>
+                    <p class="inf-title">Why Choose Us</p>
+                    <div class="advantages-box">
+                        <div class="right-side">
+                            <p><i class="fa-solid fa-phone"></i> 24/7 Support Available</p>
+                            <p><i class="fa-solid fa-award"></i> 10+ Years Experience</p>
+                            <p><i class="fa-solid fa-gem" style="margin-right: 2px;"></i> Premium Materials</p>
+                        </div>
+                        <div class="left-side">
+                            <p><i class="fa-solid fa-bolt"></i> Fast & Reliable Service</p>
+                            <p><i class="fa-solid fa-shield-alt"></i> Fully Insured Services</p>
+                            <p><i class="fa-solid fa-eye"></i> Attention to Detail</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <p class="separation-bar"></p>
 
     <footer class="footer">
-        <div class="logo-footer">
-            <img src="images/logo-footer-2.png" alt="Bistro Luna Logo">
-            <span>Bistro Luna</span>
+        <div class="footer-logo">
+            <div class="logo">
+                <a href="#hero">
+                    <img src="images/logo-footer.png" alt="Logo Woodline Design">
+                    <span>Woodline Prestige</span>
+                </a>
+            </div>
         </div>
         <div class="footer-content">
             <div class="footer-navbar">
-                <p class="mini-title">Restaurant Bistro Luna</p>
+                <p class="mini-title">Quick Links</p>
                 <ul class="footer-nav-links">
-                    <li><a href="#aboutus">Despre noi</a></li>
-                    <li><a href="meniu.html">Meniu</a></li>
-                    <li><a href="galerie.html">Galerie</a></li>
-                    <li><a href="rezervari.html">Rezervări</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <div class="contact-us">
-                <p>Contactați-ne pe</p>
+                <p>Contact us on</p>
                 <ul>
-                    <li><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fab fa-tiktok"></i></a></li>
+                    <li class="contact-circle"><a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li class="contact-circle"><a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li class="contact-circle"><a href="#" target="_blank"><i class="fab fa-tiktok"></i></a></li>
                 </ul>
-                <p class="sau-apasand" >sau apăsând butonul de mai jos</p>
-                <a href="contact.html"><button>CONTACT</button></a>
+                <p class="sau-apasand">or by clicking the button below.</p>
+                <a href="#contact"><button>CONTACT</button></a>
             </div>
-            <div class="footer-infos">
-                <p class="mini-title">Restaurant Bistro Luna</p>
+            <div class="footer-navbar">
+                <p class="mini-title">Services</p>
+                <ul class="footer-nav-links">
+                    <li><a href="#services">Custom Furniture</a></li>
+                    <li><a href="#services">Ready-Made Furniture</a></li>
+                    <li><a href="#services">Furniture Assembly</a></li>
+                    <li><a href="#services">Outdoor & Modular Assembly</a></li>
+                    <li><a href="#services">Built-In Appliance Installation</a></li>
+                    <li><a href="#services">Bathroom & Kitchen Fixtures</a></li>
+                </ul>
+            </div>
+            <div class="reach-us">
+                <p class="mini-title">Reach us</p>
                 <ul class="infos">
                     <li><i class="fa fa-phone"></i> <span>+40 749 853 688</span></li>
-                    <li><i class="fa-solid fa-envelope"></i> <span>bistro-luna@gmail.com</span></li>
-                    <li><i class="fa-solid fa-location-dot"></i> <span>Str. Dobrogei Nr. 36B, Brașov</span></li>
-                    <li>
-                        <i class="fas fa-clock"></i>
-                        <span>Program:</span>
-                        <div class="program">
-                            <span class="program-line">L - J: 10<sup>00</sup> - 23<sup>00</sup></span>
-                            <span class="program-line">V - D: 14<sup>00</sup> - 24<sup>00</sup></span>
-                        </div>
-                    </li>
+                    <li><i class="fa-solid fa-envelope"></i> <span>woodline-p@gmail.com</span></li>
+                    <li><i class="fa-solid fa-location-dot"></i> <span>All over Europe</span></li>
                 </ul>
             </div>
         </div>
@@ -232,13 +694,14 @@
         </div>
         <div class="footer-footer">
             <div class="copyright">
-                <p>© 2026 Restaurant B-Luna | Realizat de <a href="" target="_blank">RobertBuilds</a> | Toate drepturile rezervate.</p>
+                <p>© 2026 Woodline Prestige | Designed by <a href="" target="_blank">RobertBuilds</a> | All rights reserved.</p>
             </div>
             <div class="policy">
-                <p><a href="">Politica de confidențialitate</a> | <a href="">Termeni și condiții</a></p>
+                <p><a href="">Privacy Policy</a> | <a href="">Terms & Conditions</a></p>
             </div>
         </div>
     </footer>
-<script src="script.js"></script>
+    
+    <script src="script.js"></script>
 </body>
 </html>
